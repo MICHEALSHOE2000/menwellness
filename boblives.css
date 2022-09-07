@@ -4,11 +4,6 @@ body {
     padding:0;
     margin:0;
 }
-I {
-  width: 100%;
-  height: auto;
- 
-  }
 .navbar {
     background:#173459;
 }
@@ -19,10 +14,14 @@ width:70%;}
 .nav-link,
 .navbar-brand {
     color: #fff;
-    cursor: pointer;
+  cursor: pointer;
 }
 .nav-link {
     margin-right: 1em !important;
+}
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
 }
 .nav-link:hover {
     color: #000;
@@ -52,7 +51,7 @@ width:70%;}
   text-align:right;
   margin-top:18px;
   }
-  .image > I {
+  .image > img {
   vertical-align:top;/* here */
   max-width: 100%;
   min-height: 50px;
@@ -66,14 +65,18 @@ width:70%;}
   .image {
   position: relative;
   }
-  .withI {
+  .withimg {
   position: absolute;
   bottom: 5px;
   right: 8px;
   color:#173459;
   font-weight: 900;
   }
+  img {
+  width: 100%;
+  height: auto;
  
+  }
   .gfont{font-family: 'Arvo', serif;}
   .therapy{font-family: 'Arvo', serif;
   color:red;}
@@ -85,10 +88,9 @@ width:70%;}
 color: #f5b042;
   text-decoration: none;  
   }
-  .I{font-family: 'Arvo', serif;
+  .definition{font-family: 'Arvo', serif;
  color:red;
  margin:3px; }
- @media (max-width: 100px) { .I:max-width: 100px; }
  .bph{font-size:1.5em;
  padding:3px;
  margin:10px
@@ -122,6 +124,7 @@ justify-content:space-between;
   #tick
   li:before {content:"\2714\0020"; } 
     ul{list-style-type:none;}
+    
     
 .gallery {
 width:70px;
@@ -408,7 +411,7 @@ margin-right:5px;
  }
  
  /* Float images inside the r to the left. Add a right margin, and style the image as a circle */
-.testimonial I {
+.testimonial img {
  float: left;
  margin-right: 20px;
  border-radius: 50%;
@@ -426,7 +429,7 @@ margin-right:5px;
  text-align: center;
  }
  
- .testimonial I {
+ .testimonial img {
  margin: auto;
  float: none;
  display: block;
@@ -459,7 +462,7 @@ margin-right:5px;
 
 .problem{width:240px;}
 
-I
+img
 {max-width:100%;}
 .quantity{
 font-weight:bolder;
@@ -910,12 +913,6 @@ color:white;}
          text-align:center;
          margin:0 auto;
          text-align:center;}
-.cath{width:100%;
-height:auto;}
-@media (min-width:481px)
-{.image
-     {margin:1em;}
- }
          
  .GFG{font-family: sans-serif;
  border: none;
@@ -929,3 +926,5 @@ height:auto;}
  background-color:#665ae4;
  color:white;
           } 
+         
+         
